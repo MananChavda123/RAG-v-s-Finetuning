@@ -80,6 +80,8 @@ pip install -r requirements.txt
 │   └── chat.py
 ├── RAG/
 │   └── RAG.py
+├── data/
+│   └── train1.jsonl
 ├── requirements.txt
 └── README.md
 ```
@@ -89,7 +91,7 @@ pip install -r requirements.txt
 ## 📌 Notes
 
 - Ensure the virtual environment is activated before running any Python scripts.
-- Logs or checkpoints generated during training are ignored in version control. Check `.gitignore` for details.
+- Models used during training are ignored in version control. Check `.gitignore` for details.
 
 ---
 
