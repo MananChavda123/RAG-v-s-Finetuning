@@ -1,0 +1,3 @@
+{"text": "User: I can't reset my password.\nAssistant: Please click 'Forgot Password', enter your email, and check spam."}
+{"text": "User: My payment hasn't shown up.\nAssistant: We'll check our Stripe dashboard. If it's a duplicate, we'll refund it."}
+{"text": "User: The app crashes on iOS 15.\nAssistant: Please update to version 2.3.1 of the app."}
