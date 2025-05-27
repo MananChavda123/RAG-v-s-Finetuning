@@ -90,6 +90,7 @@ pip install -r requirements.txt
 
 ## 📌 Notes
 
+- First always run the finetuning files and then the RAG files.
 - Ensure the virtual environment is activated before running any Python scripts.
 - Models used during training are ignored in version control. Check `.gitignore` for details.
 
