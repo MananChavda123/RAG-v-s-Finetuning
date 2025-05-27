@@ -5,8 +5,8 @@ import faiss
 import torch
 import numpy as np
 
-MODEL_DIR = "./models/distilgpt2"
-DATA_FILE = "data/train1.jsonl"
+MODEL_DIR = "../models/distilgpt2"
+DATA_FILE = "../data/train1.jsonl"
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 EMBED_MODEL = "all-MiniLM-L6-v2"  # Compact + Fast
 

@@ -9,7 +9,7 @@ model = AutoModelForCausalLM.from_pretrained("distilgpt2")
 
 from datasets import load_dataset
 
-dataset = load_dataset("json", data_files="data/train1.jsonl", split="train")
+dataset = load_dataset("json", data_files="../data/train1.jsonl", split="train")
 
 
 # Tokenize
@@ -23,7 +23,7 @@ collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False)
 
 # Training args
 args = TrainingArguments(
-    output_dir="./models/distilgpt2",
+    output_dir="../models/distilgpt2",
     overwrite_output_dir=True,
     num_train_epochs=3,
     per_device_train_batch_size=2,
@@ -41,5 +41,5 @@ trainer = Trainer(
 )
 
 trainer.train()
-model.save_pretrained("./models/distilgpt2")
-tokenizer.save_pretrained("./models/distilgpt2")
+model.save_pretrained("../models/distilgpt2")
+tokenizer.save_pretrained("../models/distilgpt2")
