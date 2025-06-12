@@ -1,0 +1,6 @@
+ticket_no,name,description_plain,comments,solution
+T001,iPhone 12,Phone not charging properly,Tried different chargers,Replace charging cable and clean charging port
+T002,Samsung Galaxy,Screen flickering issue,Happens mostly in bright light,Adjust screen brightness and update display drivers
+T003,iPhone 12,Battery drains very fast,Started after iOS update,Reset battery settings and reduce background app refresh
+T004,MacBook Pro,Laptop overheating during use,Gets very hot during video calls,Clean internal fans and apply thermal paste
+T005,iPad,Touch screen not responding,Only certain areas affected,Restart device and recalibrate touch screen
